@@ -27,7 +27,6 @@ e.g.
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory.
 2. Activate the "Adsense Box" plugin through the 'Plugins' menu in WordPress.
 3. Go to widgets.
-If any problem occurs, please read [Documents](http://photoboxone.com/category/documents).
 
 == Screenshots ==
 [Example](http://demo.photoboxone.com/adsense-box/)
