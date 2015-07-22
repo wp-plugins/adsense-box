@@ -11,6 +11,7 @@ Stable tag: 1.0
 Adsense Box is an plugin show adsense widget.
 
 == Description ==
+Adsense Box is an plugin show adsense widget.
 
 [Example](http://demo.photoboxone.com/adsense-box/)
 
