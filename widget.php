@@ -25,7 +25,9 @@ class Adsense_Box_Widget extends WP_Widget {
 		echo $instance['code'];
 		
 		echo $args['after_widget'];
-
+		
+		echo '<!-- create at http://photoboxone.com -->';
+		
 	}
 	
 	function update( $new_instance, $instance ) {
@@ -57,3 +59,9 @@ class Adsense_Box_Widget extends WP_Widget {
 add_action( 'widgets_init', function(){
 	register_widget( 'Adsense_Box_Widget' );
 });
+
+
+function adsense_box_wp_head(){
+	echo '<link rel="adsense-box-plugin" href="http://photoboxone.com/" title="Adsense Box" />'."\n";
+}
+add_action('wp_head', 'adsense_box_wp_head');
