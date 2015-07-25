@@ -8,10 +8,12 @@ Requires at least: 3.5
 Tested up to: 4.2.2
 Stable tag: 1.0
 
-Adsense Box is an plugin show adsense widget...
+Adsense Box is an plugin show adsense widget ...
 
 == Description ==
-Adsense Box is an plugin show adsense widget.
+Adsense Box is an plugin show adsense widget. 
+
+The "Adsense Box" widget.
 
 [Example](http://demo.photoboxone.com/adsense-box/)
 
