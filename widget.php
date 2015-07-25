@@ -1,4 +1,7 @@
 <?php
+/*
+ * Author: http://photoboxone.com/
+ */
 defined('ABSPATH') or die('<meta http-equiv="refresh" content="0;url='.WP_AB_URL_HOME.'">');
 
 class Adsense_Box_Widget extends WP_Widget {
