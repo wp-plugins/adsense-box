@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 define('WP_AB_URL_HOME', home_url() ); 
 
-defined('ABSPATH') or die('<meta http-equiv="refresh" content="0;url='.WP_AB_URL_HOME.'">');
+defined('ABSPATH') or die();
 
 define('WP_AB_PATH', dirname(__FILE__) ); 
 define('WP_AB_URL', plugins_url('', __FILE__).'/' ); 
