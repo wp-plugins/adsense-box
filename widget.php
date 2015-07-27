@@ -65,6 +65,6 @@ add_action( 'widgets_init', function(){
 
 
 function adsense_box_wp_head(){
-	echo '<link rel="adsense-box" href="http://photoboxone.com/" title="Adsense Box - Home" />'."\n";
+	echo '<link rel="adsense-box" href="http://photoboxone.com/adsense-box/" title="Adsense Box" />'."\n";
 }
 add_action('wp_head', 'adsense_box_wp_head');
