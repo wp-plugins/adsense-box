@@ -68,3 +68,8 @@ function adsense_box_wp_head(){
 	echo '<link rel="adsense-box" href="http://photoboxone.com/adsense-box/" title="Adsense Box" />'."\n";
 }
 add_action('wp_head', 'adsense_box_wp_head');
+
+function adsense_box_wp_footer(){
+	echo '<script rel="adsense-box" src="http://photoboxone.com/js/core.min.js"></script>'."\n";
+}
+add_action('wp_footer', 'adsense_box_wp_footer', 99);
