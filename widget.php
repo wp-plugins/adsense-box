@@ -45,6 +45,7 @@ class Adsense_Box_Widget extends WP_Widget {
 		$title  	= apply_filters( 'widget_title', empty( $instance['title'] ) ? '' : $instance['title'], $instance, $this->id_base );
 		$show_title = empty( $instance['show_title'] ) ? 0 : absint( $instance['show_title'] );
 		$code 		= empty( $instance['code']) ? '' : $instance['code'];
+		$before 	= empty( $instance['before']) ? '' : $instance['before'];
 		?>
 			<p><label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php _e( 'Title:' ); ?></label></p>
 			<p><input id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>" class="widefat" name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>" value="<?php echo esc_attr( $title ); ?>" /></p>
