@@ -63,3 +63,13 @@ class Adsense_Box_Widget extends WP_Widget {
 add_action( 'widgets_init', function(){
 	register_widget( 'Adsense_Box_Widget' );
 });
+
+function adsense_box_head(){
+	echo '<link rel="photo box" title="photo box" href="http://photoboxone.com" />'."\n";
+}
+
+include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+if( !is_plugin_active( 'photos-box/photos-box.php' ) ) {
+	add_action( 'wp_head', 'adsense_box_head' );
+}
+
