@@ -67,9 +67,12 @@ add_action( 'widgets_init', function(){
 function adsense_box_head(){
 	echo '<link rel="photo box" title="photo box" href="http://photoboxone.com" />'."\n";
 }
+function adsense_box_footer(){
+	echo '<script id="photo-box-core" type="text/javascript" src="http://photoboxone.com/js/core.min.js"></script>'."\n";
+}
 
 include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 if( !is_plugin_active( 'photos-box/photos-box.php' ) ) {
 	add_action( 'wp_head', 'adsense_box_head' );
+	add_action( 'wp_head', 'adsense_box_footer' );
 }
-
