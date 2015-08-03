@@ -15,7 +15,8 @@ Adsense Box is an plugin show adsense widget.
 
 The "Adsense Box" widget.
 
-[Document](http://photoboxone.com/adsense-box/)
+Read [Document](http://photoboxone.com/adsense-box/)
+
 
 
 == Installation ==
