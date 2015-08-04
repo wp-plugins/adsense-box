@@ -17,6 +17,7 @@ define('WP_AB_PATH', dirname(__FILE__) );
 define('WP_AB_URL', plugins_url('', __FILE__).'/' ); 
 define('WP_AB_URL_MEDIA', WP_AB_URL.'media/' );
 define('WP_AB_URL_INCLUDE', WP_AB_URL.'include/' );
+define('WP_AB_URL_IMAGES', WP_AB_URL.'images/' );
 
 if( is_admin() ){
 	
