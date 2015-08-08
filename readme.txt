@@ -17,7 +17,6 @@ The "Adsense Box" widget.
 
 [About](http://photoboxone.com/adsense-box/)
 
-
 == Installation ==
 #### Thank you for your interest in Adsense Box.
 ### Minimum requirements.  
