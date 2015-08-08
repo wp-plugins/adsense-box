@@ -22,7 +22,8 @@ The "Adsense Box" widget.
 ### Minimum requirements.  
 *   Wordpress 3.0+  
 *   PHP 5.x  
-*   MySQL 5.x  
+*   MySQL 5.x
+
 This section describes how to install the plugin and get it working.
 e.g.
 
