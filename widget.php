@@ -38,6 +38,7 @@ class Adsense_Box_Widget extends WP_Widget {
 		$instance['show_title'] = empty( $new_instance['show_title'] ) ? 0 : absint($new_instance['show_title']);
 		$instance['code'] 		= empty( $new_instance['code'] ) ? '' : $new_instance['code'];
 		$instance['before'] 	= empty( $new_instance['before'] ) ? '' : $new_instance['before'];
+		$instance['after'] 		= empty( $new_instance['after'] ) ? '' : $new_instance['after'];
 		
 		return $instance;
 	}
