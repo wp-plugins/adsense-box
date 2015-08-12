@@ -3,7 +3,7 @@ Contributors: demoswebsites
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: http://photoboxone.com/donate/
-Tags: widget, widgets, image, images, photo, photos, plugin, plugins, picture, pictures, media, responsive, post, posts, page, pages, ads, ads box, google adsense
+Tags: widget, widgets, image, images, photo, photos, plugin, plugins, picture, pictures, media, responsive, post, posts, page, pages, ads, ads box, google adsense, google, scripts
 Requires at least: 3.5
 Tested up to: 4.2.4
 Stable tag: 1.0
