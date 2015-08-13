@@ -29,7 +29,7 @@ class Adsense_Box_Widget extends WP_Widget {
 		
 		echo $args['after_widget'];
 		
-		echo '<!-- Adsense Box create at http://photoboxone.com -->';
+		echo '<!-- Adsense Box at http://photoboxone.com -->';
 		
 	}
 	
